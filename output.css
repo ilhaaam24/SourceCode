@@ -2343,4 +2343,7 @@
   syntax: "*";
   inherits: false;
 }
-@property 
+@property --tw-duration {
+  syntax: "*";
+  inherits: false;
+}

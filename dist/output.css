@@ -1361,6 +1361,9 @@
   .p-5 {
     padding: calc(var(--spacing) * 5);
   }
+  .p-7 {
+    padding: calc(var(--spacing) * 7);
+  }
   .px-2 {
     padding-inline: calc(var(--spacing) * 2);
   }
