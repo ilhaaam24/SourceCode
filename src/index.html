@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-[#F8FAF9] font-poppins">
+    <header class="px-10 md:px-20 xl:px-40 bg-white shadow-gray-800">
+      <nav class="flex items-center justify-between px-2.5 py-5">
+        <div class="flex items-center gap-12">
+          <div class="flex items-center gap-2">
+            <img src="../assets/logo/logo.png" alt="" class="h-10 w-10" />
+            <h1 class="text-2xl font-extrabold">Obito</h1>
+          </div>
+          <div class="flex items-center gap-10">
+            <a href="#" class="font-semibold">Home</a>
+            <a href="#">Pricing</a>
+            <a href="#">Features</a>
+            <a href="#">Testimonials</a>
+          </div>
+        </div>
+        <div class="flex items-center gap-5">
+          <img src="../assets/icons/device-message.png" alt="" class="h-6 w-6" />
+          <divc class="flex items-center gap-3">
+            <button class="px-5 py-3 border border-[#EAECEE] rounded-full text-base font-semibold"><a href="">Sign Up</a></button>
+            <button class="px-5 py-3 border bg-[#2F6A62] text-white rounded-full text-base font-semibold"><a href="">My Account</a></button>
+          </divc>
+        </div>
+      </nav>
+    </header>
+    <main class="flex px-10 md:px-20 xl:px-40 justify-center md:justify-between items-center">
+      <div class="border border-[#EAECEE] w-full lg:w-[510px] rounded-[20px] mr-12 bg-white">
+        <form action="" class="flex flex-col gap-4 p-5">
+          <h2 class="font-bold text-2xl">Upgrade Your Skills</h2>
+          <!-- <div class="h-[90px] w-[90px] rounded-full border border-[#EAECEE] flex items-center justify-center">Add Photo</div> -->
+          <div class="flex items-center gap-3">
+            <img src="../assets/image/image_signup.png" class="h-[90px] w-[90px] object-cover rounded-full" alt="" />
+            <button class="bg-[#FFE3E1] text-[#EF372B] px-2.5 py-1.5 rounded-full text-xs font-bold">DELETE PHOTO</button>
+          </div>
+
+          <div class="flex flex-col gap-2">
+            <label for="name">Complete Name</label>
+            <div class="relative w-full">
+              <span class="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400"> <img src="../assets/./icons/profile.png" alt="" class="h-5 w-5" /></span>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="w-full border border-[#EAECEE] rounded-full py-3.5 px-5 pl-10 pr-4 text-base font-semibold placeholder:font-normal placeholder:text-gray-400 focus:outline-[#2F6A62]"
+                placeholder="Enter your name" />
+            </div>
+          </div>
+          <div class="flex flex-col gap-2">
+            <label for="name">Occupation</label>
+            <div class="relative w-full">
+              <span class="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400"> <img src="../assets/./icons/briefcase.png" alt="" class="h-5 w-5" /></span>
+              <input
+                type="text"
+                name="Occupation"
+                id="Occupation"
+                class="w-full border border-[#EAECEE] rounded-full py-3.5 px-5 pl-10 pr-4 text-base font-semibold placeholder:font-normal placeholder:text-gray-400 focus:outline-[#2F6A62]"
+                placeholder="Programmer" />
+            </div>
+          </div>
+          <div class="flex flex-col gap-2">
+            <label for="name">Email Address</label>
+            <div class="relative w-full">
+              <span class="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400"> <img src="../assets/./icons/sms.png" alt="" class="h-5 w-5" /></span>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="w-full border border-[#EAECEE] rounded-full py-3.5 px-5 pl-10 pr-4 text-base font-semibold placeholder:font-normal placeholder:text-gray-400 focus:outline-[#2F6A62]"
+                placeholder="Enter your email address" />
+            </div>
+          </div>
+          <div class="flex flex-col gap-2">
+            <label for="name">Password</label>
+            <div class="relative w-full">
+              <span class="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400"> <img src="../assets/./icons/shield-security.png" alt="" class="h-5 w-5" /></span>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                class="w-full border border-[#EAECEE] rounded-full py-3.5 px-5 pl-10 pr-4 text-base font-semibold placeholder:font-normal placeholder:text-gray-400 focus:outline-[#2F6A62] "
+                placeholder="Enter your password" />
+            </div>
+          </div>
+          <div class="flex flex-col gap-2">
+            <label for="name">Confirm Password</label>
+            <div class="relative w-full">
+              <span class="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400"> <img src="../assets/./icons/shield-security.png" alt="" class="h-5 w-5" /></span>
+              <input
+                type="password"
+                name="confirm_password"
+                id="confirm_password"
+                class="w-full border border-[#EAECEE] rounded-full py-3.5 px-5 pl-10 pr-4 text-base font-semibold placeholder:font-normal placeholder:text-gray-400 focus:outline-[#2F6A62]"
+                placeholder="Confirm your password" />
+            </div>
+          </div>
+
+          <button class="w-full border bg-[#2F6A62] text-white font-semibold rounded-full py-3.5 px-5">Create My Account</button>
+        </form>
+      </div>
+      <div class="hidden md:block w-1/2 h-full">
+        <img src="../assets/image/image_signup.png" alt="image" class="h-full w-full" />
+      </div>
+    </main>
+  </body>
+</html>
